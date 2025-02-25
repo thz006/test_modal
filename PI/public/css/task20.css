@@ -1,0 +1,294 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.kitsetup-container_banner img{
+    width: 100%;
+    height: 470px;
+    margin-top: 40px;
+}
+
+.kitsetup-h1{
+    font-size: 62px;
+    font-family: "Inter", serif;
+    display: flex;
+    margin-left: 5%;
+}
+
+.kitsetup-p{
+    font-size: 22px;
+    font-family: "Nunito", serif;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.kitsetup-container_titles{
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+footer{
+    margin-top: 112px;
+}
+
+.kitsetup-container_products{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.kitsetup-products_box{
+    width: 270px;
+    height: 432px;
+    background-color: #F6F6F6;
+    border-radius: 9px;
+    margin-top: 40px;
+}
+
+.config-box{
+    width: 107px;
+    height: 37px;
+    background-color: #291E40;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 19px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.config-box-p{
+    color: white;
+    font-size: 8px;
+    margin-left: 15px;
+}
+
+.info-box{
+    width: 24px;
+    height: 24px;
+    background-color: #BF99FE;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-product-box{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+.heart-icon-box{
+    width: 24px;
+    height: 24px;
+    margin-top: 24px;
+    margin-left: 102px;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-name-box h1{
+    font-size: 16px;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    width: 237px;
+    height: 48px;
+    text-align: center;
+}
+
+.product-name-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.product-price-box h1{
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    width: 237px;
+    height: 48px;
+    text-align: center;
+}
+
+.product-price-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.buy-product-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buy-product-button{
+    width: 235px;
+    height: 48px;
+    background-color: #291E40;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.buy-product-text{
+    color: white;
+}
+
+.main-product-contant{
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-18%);
+}
+
+.pages-container{
+    display: flex;
+    cursor: pointer;
+}
+
+
+.pages{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.page1-button{
+    width: 30px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page2-button{
+    width: 30px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-number{
+    color: white;
+}
+
+.page2-number{
+    color: black;
+}
+
+.left-arrow{
+    width: 6px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.right-arrow{
+    width: 6px;
+    height: 12px;
+    cursor: pointer;
+}
+
+.pages-button-container{
+    gap: 8px;
+    display: flex;
+    cursor: pointer;
+}
+
+.pages-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 13%;
+    margin-top: 32px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    display: none; /* Oculto por padrão */
+}
+
+
+
+
+
+
+/*CSS MODAL*/
+
+
+
+
+
+
+
+.active-modal {
+    animation: fadeIn 0.3s;
+}
+
+/* Estilo para o botão de fechar */
+.close-button {
+    font-size: 16px;
+    color: #291E40;
+    margin-bottom: 5px;
+}
+
+/* Ajustes para os itens do modal */
+.info-modal-title {
+    font-family: "Montserrat", serif;
+    color: #291E40;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info-modal p {
+    font-family: "Nunito", serif;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding: 0 5px;
+}
+
+.icons-model {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* Garantir que o overlay cubra toda a página */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}

@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.info-modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.info-modal{
+    width: 270px;
+    height: 432px;
+    background-color: #D4E3FF;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+
+.info-modal-title{
+    font-size: 14px;
+    font-family: "Inter", serif;
+    font-weight: 700;
+    display: flex;
+    margin-left: 35px;
+    margin-top: 16px;
+}
+
+.info-modal-placa-mae{
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    width: 200px;
+    display: flex;
+    margin-left: 56px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.info-modal-armazenamento{
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    width: 200px;
+    display: flex;
+    margin-left: 56px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.info-modal-fonte{
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    width: 200px;
+    display: flex;
+    margin-left: 56px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.info-modal-gabinete{
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    width: 200px;
+    display: flex;
+    margin-left: 56px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.info-modal-alimentacao{
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    width: 200px;
+    display: flex;
+    margin-left: 56px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.info-modal-placa-de-video{
+    font-size: 10px;
+    font-family: "Nunito", serif;
+    width: 200px;
+    display: flex;
+    margin-left: 56px;
+    margin-top: 10px;
+    line-height: 15px;
+}
+
+.icons-model{
+    width: 16px;
+    height: 16px;
+    transform: translateX(-4px);
+}
