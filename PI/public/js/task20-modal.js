@@ -83,8 +83,8 @@
 // });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const configButtons = document.querySelectorAll(".config-box");
-    const modal = document.querySelector(".info-modal-container");
+    const configButtons = document.querySelectorAll(".kitsetup-config-box");
+    const modal = document.querySelector(".kitsetup-info-modal-container");
 
     let currentProductBox = null; // Armazena o produto que foi escondido
 
@@ -141,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // CORAÇÃO
 
 // Selecione todos os ícones de like
-const heartIcons = document.querySelectorAll('.heart-icon-box img');
+const heartIcons = document.querySelectorAll('.kitsetup-heart-icon-box img');
 
 // Para cada ícone, adicione um ouvinte de evento para o clique
 heartIcons.forEach(heartIcon => {

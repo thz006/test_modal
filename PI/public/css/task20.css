@@ -51,7 +51,7 @@ footer{
     margin-top: 40px;
 }
 
-.config-box{
+.kitsetup-config-box{
     width: 107px;
     height: 37px;
     background-color: #291E40;
@@ -64,13 +64,13 @@ footer{
     cursor: pointer;
 }
 
-.config-box-p{
+.kitsetup-config-box-p{
     color: white;
     font-size: 8px;
     margin-left: 15px;
 }
 
-.info-box{
+.kitsetup-info-box{
     width: 24px;
     height: 24px;
     background-color: #BF99FE;
@@ -80,27 +80,27 @@ footer{
     justify-content: center;
 }
 
-.header-product-box{
+.kitsetup-header-product-box{
     height: 30%;
     display: flex;
     flex-direction: row;
     cursor: pointer;
 }
 
-.heart-icon-box img{
+.kitsetup-heart-icon-box img{
     width: 32px;
     height: 32px;
     margin-top: 24px;
     margin-left: 102px;
 }
 
-.product-image{
+.kitsetup-product-image{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.product-name-box h1{
+.kitsetup-product-name-box h1{
     font-size: 16px;
     font-family: "Montserrat", serif;
     font-weight: 500;
@@ -109,14 +109,14 @@ footer{
     text-align: center;
 }
 
-.product-name-box{
+.kitsetup-product-name-box{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 16px;
 }
 
-.product-price-box h1{
+.kitsetup-product-price-box h1{
     font-size: 24px;
     font-family: "Montserrat", serif;
     font-weight: 600;
@@ -125,21 +125,21 @@ footer{
     text-align: center;
 }
 
-.product-price-box{
+.kitsetup-product-price-box{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 16px;
 }
 
-.buy-product-button-container{
+.kitsetup-buy-product-button-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.buy-product-button{
+.kitsetup-buy-product-button{
     width: 235px;
     height: 48px;
     background-color: #291E40;
@@ -150,30 +150,30 @@ footer{
     cursor: pointer;
 }
 
-.buy-product-text{
+.kitsetup-buy-product-text{
     color: white;
 }
 
-.main-product-contant{
+.kitsetup-main-product-contant{
     display: flex;
     flex-direction: column;
     transform: translateY(-18%);
 }
 
-.pages-container{
+.kitsetup-pages-container{
     display: flex;
     cursor: pointer;
 }
 
 
-.pages{
+.kitsetup-pages{
     display: flex;
     flex-direction: row;
     gap: 16px;
     align-items: center;
 }
 
-.page1-button{
+.kitsetup-page1-button{
     width: 30px;
     height: 32px;
     border-radius: 5px;
@@ -183,7 +183,7 @@ footer{
     justify-content: center;
 }
 
-.page2-button{
+.kitsetup-page2-button{
     width: 30px;
     height: 32px;
     border-radius: 5px;
@@ -193,33 +193,33 @@ footer{
     justify-content: center;
 }
 
-.page-number{
+.kitsetup-page-number{
     color: white;
 }
 
-.page2-number{
+.kitsetup-page2-number{
     color: black;
 }
 
-.left-arrow{
+.kitsetup-left-arrow{
     width: 6px;
     height: 12px;
     cursor: pointer;
 }
 
-.right-arrow{
+.kitsetup-right-arrow{
     width: 6px;
     height: 12px;
     cursor: pointer;
 }
 
-.pages-button-container{
+.kitsetup-pages-button-container{
     gap: 8px;
     display: flex;
     cursor: pointer;
 }
 
-.pages-container{
+.kitsetup-pages-container{
     display: flex;
     justify-content: flex-end;
     margin-right: 13%;
@@ -235,14 +235,14 @@ footer{
 /* CSS MODAL*/
 
 
-.info-modal-container{
+.kitsetup-info-modal-container{
     display: none;
     justify-content: center;
     align-items: center;
 }
 
 
-.info-modal{
+.kitsetup-info-modal{
     width: 270px;
     height: 432px;
     background-color: #D4E3FF;
@@ -254,7 +254,7 @@ footer{
 
 
 
-.info-modal-title{
+.kitsetup-info-modal-title{
     font-size: 14px;
     font-family: "Inter", serif;
     font-weight: 700;
@@ -263,7 +263,7 @@ footer{
     margin-top: 16px;
 }
 
-.info-modal-placa-mae{
+.kitsetup-info-modal-placa-mae{
     font-size: 10px;
     font-family: "Nunito", serif;
     width: 200px;
@@ -273,7 +273,7 @@ footer{
     line-height: 15px;
 }
 
-.info-modal-armazenamento{
+.kitsetup-info-modal-armazenamento{
     font-size: 10px;
     font-family: "Nunito", serif;
     width: 200px;
@@ -283,7 +283,7 @@ footer{
     line-height: 15px;
 }
 
-.info-modal-fonte{
+.kitsetup-info-modal-fonte{
     font-size: 10px;
     font-family: "Nunito", serif;
     width: 200px;
@@ -293,7 +293,7 @@ footer{
     line-height: 15px;
 }
 
-.info-modal-gabinete{
+.kitsetup-info-modal-gabinete{
     font-size: 10px;
     font-family: "Nunito", serif;
     width: 200px;
@@ -303,7 +303,7 @@ footer{
     line-height: 15px;
 }
 
-.info-modal-alimentacao{
+.kitsetup-info-modal-alimentacao{
     font-size: 10px;
     font-family: "Nunito", serif;
     width: 200px;
@@ -313,7 +313,7 @@ footer{
     line-height: 15px;
 }
 
-.info-modal-placa-de-video{
+.kitsetup-info-modal-placa-de-video{
     font-size: 10px;
     font-family: "Nunito", serif;
     width: 200px;
@@ -323,7 +323,7 @@ footer{
     line-height: 15px;
 }
 
-.icons-model{
+.kitsetup-icons-model{
     width: 16px;
     height: 16px;
     transform: translateX(-4px);
