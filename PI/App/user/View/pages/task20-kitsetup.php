@@ -5,10 +5,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../../public/css/task20.css">
 
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Tweeb</title>
 </head>
-<body>
+<body class="task20-kitsetup">
     <div class="kitsetup-container_banner">
         <img src="../../../../public/assets/img/banner setup.png" alt="banner-kit_setup" class="kitsetup-banner">
     </div>
@@ -48,13 +58,13 @@
                         R$4599,97
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -83,13 +93,13 @@
                         R$1732,22
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -118,13 +128,13 @@
                         R$4229,98
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -153,13 +163,13 @@
                         R$3939,00
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-info-modal-container">
@@ -229,13 +239,13 @@
                         R$4599,97
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -264,13 +274,13 @@
                         R$1732,22
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -299,13 +309,13 @@
                         R$4229,98
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -334,13 +344,13 @@
                         R$3939,00
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -375,13 +385,13 @@
                         R$4599,97
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -410,13 +420,13 @@
                         R$1732,22
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -445,13 +455,13 @@
                         R$4229,98
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -480,13 +490,13 @@
                         R$3939,00
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -522,13 +532,13 @@
                         R$4599,97
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -557,13 +567,13 @@
                         R$1732,22
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -592,13 +602,13 @@
                         R$4229,98
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <div class="kitsetup-products_box">
@@ -627,13 +637,13 @@
                         R$3939,00
                     </h1>
                 </div>
-                <div class="kitsetup-buy-product-button-container">
-                    <div class="kitsetup-buy-product-button">
-                        <p class="kitsetup-buy-product-text">
-                            Comprar agora
-                        </p>
+                <a href="../../../../App/user/View/pages/descproduto.php" class="kitsetup-buy-now">
+                    <div class="kitsetup-buy-product-button-container">
+                        <div class="kitsetup-buy-product-button">
+                            <p class="kitsetup-buy-product-text">Comprar agora</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
